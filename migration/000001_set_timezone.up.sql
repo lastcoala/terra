@@ -1,0 +1,1 @@
+alter database terra set timezone to 'Asia/Jakarta';

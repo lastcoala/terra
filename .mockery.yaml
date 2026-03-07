@@ -1,0 +1,12 @@
+with-expecter: true
+packages:
+  github.com/lastcoala/terra/internal/app/repo:
+    config:
+      all: true
+      dir: internal/mocks
+      outpkg: mocks
+  github.com/lastcoala/terra/internal/app/service:
+    config:
+      all: true
+      dir: internal/mocks
+      outpkg: mocks

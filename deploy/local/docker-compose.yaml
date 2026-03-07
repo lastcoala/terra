@@ -1,0 +1,12 @@
+name: terra-local
+
+services:
+  postgres:
+    restart: no
+    image: postgres:16
+    environment:
+      - POSTGRES_USER=terra
+      - POSTGRES_PASSWORD=terra123
+      - POSTGRES_DB=terra
+    ports:
+      - 5432:5432
