@@ -1,0 +1,6 @@
+rest:
+  server:
+    host: ":8080"
+  db:
+    datastore: "postgres://terra:terra123@localhost:5433/terra?sslmode=disable"
+    nConn: 1
